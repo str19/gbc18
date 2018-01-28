@@ -1,4 +1,8 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Scenes/island.unity
+=======
+- path: Assets/Scenes/level1.unity
+>>>>>>> wilton
   isLoaded: 1
   isActive: 1

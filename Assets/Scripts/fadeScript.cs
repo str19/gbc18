@@ -3,8 +3,8 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class fadeScript : MonoBehaviour {
-    public float fadeTime = 0;
-    int state = 0;
+    public float fadeTime = 2;
+    int state = 3;
     string _newScene = "";
 
 	// Use this for initialization
@@ -17,9 +17,9 @@ public class fadeScript : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         Color color = gameObject.GetComponent<Image>().color;
-
         switch (state) {
             case 0:
+                state = 3;
                 gameObject.SetActive(false);
                 break;
             case 1:
@@ -48,11 +48,10 @@ public class fadeScript : MonoBehaviour {
 
     public void fadeIn() {
         gameObject.SetActive(true);
-
+        
         Color color = Color.black;
         color.a = 1f;
         gameObject.GetComponent<Image>().color = color;
-
         state = 1;
     }
 

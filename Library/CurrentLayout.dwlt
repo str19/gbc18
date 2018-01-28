@@ -67,10 +67,10 @@ MonoBehaviour:
     y: 30
     width: 2560
     height: 1307
-  m_MinSize: {x: 611, y: 692}
-  m_MaxSize: {x: 18006, y: 18042}
+  m_MinSize: {x: 613, y: 713}
+  m_MaxSize: {x: 18008, y: 18063}
   vertical: 1
-  controlID: 29
+  controlID: 12
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -117,10 +117,10 @@ MonoBehaviour:
     y: 0
     width: 469
     height: 634
-  m_MinSize: {x: 234, y: 471}
-  m_MaxSize: {x: 10004, y: 14021}
+  m_MinSize: {x: 234, y: 492}
+  m_MaxSize: {x: 10004, y: 14042}
   vertical: 1
-  controlID: 99
+  controlID: 77
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -139,8 +139,8 @@ MonoBehaviour:
     y: 0
     width: 469
     height: 284
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 204, y: 221}
+  m_MaxSize: {x: 4004, y: 4021}
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
@@ -167,10 +167,10 @@ MonoBehaviour:
     y: 673
     width: 2560
     height: 634
-  m_MinSize: {x: 611, y: 471}
-  m_MaxSize: {x: 18006, y: 14021}
+  m_MinSize: {x: 613, y: 492}
+  m_MaxSize: {x: 18008, y: 14042}
   vertical: 0
-  controlID: 53
+  controlID: 76
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -189,8 +189,8 @@ MonoBehaviour:
     y: 0
     width: 555
     height: 634
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 277, y: 71}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
@@ -278,17 +278,17 @@ MonoBehaviour:
     y: 0
     width: 1536
     height: 634
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 14}
+  m_MinSize: {x: 102, y: 121}
+  m_MaxSize: {x: 4002, y: 4021}
+  m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 20}
   - {fileID: 16}
   - {fileID: 14}
   - {fileID: 15}
   - {fileID: 13}
-  m_Selected: 2
-  m_LastSelected: 0
+  m_Selected: 1
+  m_LastSelected: 2
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -406,6 +406,7 @@ MonoBehaviour:
     - {fileID: 1107410118328591282, guid: c8a2702ac1e4a694ea7b49c1002c7543, type: 2}
     - {fileID: 1107171068992149622, guid: 07775ec307483ad47a9649e6bc379b87, type: 2}
     - {fileID: 1107388371883262942, guid: 8f451f221a5ce0848b979a33f34e852d, type: 2}
+    - {fileID: 1107122136839684382, guid: 5097a496327dcc344990e77d755d6443, type: 2}
     m_ValueSerializationHelper:
     - e00: 1
       e01: 0
@@ -415,6 +416,22 @@ MonoBehaviour:
       e11: 1
       e12: 0
       e13: 197
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
       e20: 0
       e21: 0
       e22: 1
@@ -506,8 +523,7 @@ MonoBehaviour:
     m_ScenePaths: []
     m_ShowAllHits: 0
     m_SearchArea: 0
-    m_Folders:
-    - Assets/Assets/Sprites
+    m_Folders: []
   m_ViewMode: 0
   m_StartGridSize: 64
   m_LastFolders: []
@@ -518,7 +534,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 82290000
     m_LastClickedID: 10626
-    m_ExpandedIDs: 00000000be270000d8270000f8270000fa2700004428000080280000d4280000e6290000e8290000ea290000ec290000ee290000f0290000f2290000
+    m_ExpandedIDs: 00000000c2270000dc270000e427000022280000242800004829000078290000f62c0000f82c0000fa2c0000fc2c0000fe2c0000002d0000022d0000042d0000062d0000082d00000a2d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -546,21 +562,21 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 109}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000be270000ce270000f8270000fa270000d4280000e6290000e8290000ea290000ec290000ee290000f0290000f22900003e3500009e4c0000a04c0000a64c0000f8510000c8550000
+    m_ExpandedIDs: 00000000c2270000dc270000e427000022280000242800004829000078290000f62c0000f82c0000fa2c0000fc2c0000fe2c0000002d0000022d0000042d0000062d0000082d00000a2d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Skyline
-      m_OriginalName: Skyline
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 53108
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 4}
     m_SearchString: 
@@ -664,9 +680,9 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 
+    m_SelectedIDs: 561cffff
     m_LastClickedID: 0
-    m_ExpandedIDs: 1ef1eeff6278f2ffc040f5ff2c7df5ffb02af6ff922df6ff302ff6ff1c3bf6ff1e3bf6ffe86cf6ff0474f6ff2ad9f6ff086af7ff1a8df7ff4aadf7ff10aff7ff5299fbff5499fbff6ea4fbff96a5fcff32bcfdffb2bdfdff7eddfdffb0cefeff9af6feffcefdfeff8cfffeff3a04ffffcc0dffff9c2affffd4eaffff86edffffb8f6ffff9efbffff00000000442c0000c6410000ce430000e6430000204900001e530000ac550000
+    m_ExpandedIDs: 9efbffff00000000dc290000222c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -722,9 +738,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -47.40018, y: -142.07486, z: 387.11664}
+    m_Target: {x: 31.036636, y: 10.046982, z: 436.04465}
     speed: 2
-    m_Value: {x: -47.40018, y: -142.07486, z: 387.11664}
+    m_Value: {x: 31.036636, y: 10.046982, z: 436.04465}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -748,13 +764,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.2808617, y: -0.0440316, z: 0.012900234, w: 0.95865095}
+    m_Target: {x: -0.06587485, y: -0.048476458, z: 0.0032041427, w: -0.99664456}
     speed: 2
-    m_Value: {x: 0.2808617, y: -0.0440316, z: 0.012900234, w: 0.95865095}
+    m_Value: {x: -0.06587485, y: -0.048476458, z: 0.0032041427, w: -0.99664456}
   m_Size:
-    m_Target: 543.6939
+    m_Target: 436.66797
     speed: 2
-    m_Value: 543.6939
+    m_Value: 436.66797
   m_Ortho:
     m_Target: 0
     speed: 2

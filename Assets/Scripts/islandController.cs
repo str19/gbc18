@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class islandController : MonoBehaviour {
+    public Animator adjustableWaterAnimator;
 
     // Use this for initialization
     void Start()
@@ -24,4 +25,8 @@ public class islandController : MonoBehaviour {
         }
     }
 
+    private void Update()
+    {
+        adjustableWaterAnimator.enabled = GameManager.Instance.firstMapFlooded;
+    }
 }

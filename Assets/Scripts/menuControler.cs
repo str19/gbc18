@@ -2,10 +2,10 @@
 using UnityEngine.SceneManagement;
 
 public class menuControler : MonoBehaviour {
-
-	// Use this for initialization
-	void Start () {
-        GameObject fade = GameObject.Find("fadeInOut");
+    GameObject fade;
+    // Use this for initialization
+    void Start () {
+        fade = GameObject.Find("fadeInOut");
         fade.GetComponent<fadeScript>().fadeIn();
 	}
 	
@@ -15,11 +15,21 @@ public class menuControler : MonoBehaviour {
 	}
 
     public void startGame() {
-        SceneManager.LoadScene("island");
+        fade.GetComponent<fadeScript>().fadeOutTo("island");
     }
 
     public void exitGame()
     {
         Application.Quit();
+    }
+
+    public void credits()
+    {
+        fade.GetComponent<fadeScript>().fadeOutTo("credits");
+    }
+    public void menu()
+    {
+
+        fade.GetComponent<fadeScript>().fadeOutTo("mainMenu");
     }
 }

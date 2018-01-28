@@ -122,6 +122,7 @@ GameObject:
   m_Component:
   - component: {fileID: 13510292}
   - component: {fileID: 13510293}
+  - component: {fileID: 13510294}
   m_Layer: 0
   m_Name: watercolor-tree-10 (14)
   m_TagString: Untagged
@@ -186,6 +187,18 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!65 &13510294
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 13510291}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.690895, y: 12.4, z: 1.3435059}
+  m_Center: {x: 0.30171204, y: 0, z: -0.06087494}
 --- !u!1 &20127027
 GameObject:
   m_ObjectHideFlags: 0
@@ -195,6 +208,7 @@ GameObject:
   m_Component:
   - component: {fileID: 20127028}
   - component: {fileID: 20127029}
+  - component: {fileID: 20127030}
   m_Layer: 0
   m_Name: watercolor-tree-10 (8)
   m_TagString: Untagged
@@ -248,7 +262,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 42dc660c35a06754db19f0321dee3183, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -259,6 +273,18 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!65 &20127030
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 20127027}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.690895, y: 12.4, z: 1.3435059}
+  m_Center: {x: 0.30171204, y: 0, z: -0.06087494}
 --- !u!1 &34199714
 GameObject:
   m_ObjectHideFlags: 0
@@ -268,6 +294,7 @@ GameObject:
   m_Component:
   - component: {fileID: 34199715}
   - component: {fileID: 34199716}
+  - component: {fileID: 34199717}
   m_Layer: 0
   m_Name: watercolor-tree-10 (9)
   m_TagString: Untagged
@@ -332,6 +359,18 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!65 &34199717
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 34199714}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.690895, y: 12.4, z: 1.3435059}
+  m_Center: {x: 0.30171204, y: 0, z: -0.06087494}
 --- !u!1 &54830915
 GameObject:
   m_ObjectHideFlags: 0
@@ -341,6 +380,7 @@ GameObject:
   m_Component:
   - component: {fileID: 54830916}
   - component: {fileID: 54830917}
+  - component: {fileID: 54830918}
   m_Layer: 0
   m_Name: watercolor-tree-9
   m_TagString: Untagged
@@ -405,6 +445,18 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!65 &54830918
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 54830915}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.690895, y: 12.4, z: 1.3435059}
+  m_Center: {x: 0.30171204, y: 0, z: -0.06087494}
 --- !u!1 &104522488
 GameObject:
   m_ObjectHideFlags: 0
@@ -491,8 +543,9 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 504194919}
+  - {fileID: 2095039905}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -508,6 +561,7 @@ GameObject:
   m_Component:
   - component: {fileID: 134462261}
   - component: {fileID: 134462262}
+  - component: {fileID: 134462263}
   m_Layer: 0
   m_Name: watercolor-tree-11 (4)
   m_TagString: Untagged
@@ -561,7 +615,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 42612e3e3fb6fb94ab1bfa268fcfcf6b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -572,6 +626,18 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!65 &134462263
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 134462260}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.690895, y: 12.4, z: 1.3435059}
+  m_Center: {x: 0.30171204, y: 0, z: -0.06087494}
 --- !u!1001 &144669349
 Prefab:
   m_ObjectHideFlags: 0
@@ -637,6 +703,7 @@ GameObject:
   m_Component:
   - component: {fileID: 170084438}
   - component: {fileID: 170084439}
+  - component: {fileID: 170084440}
   m_Layer: 0
   m_Name: watercolor-tree-10 (6)
   m_TagString: Untagged
@@ -701,6 +768,18 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!65 &170084440
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 170084437}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.690895, y: 12.4, z: 1.3435059}
+  m_Center: {x: 0.30171204, y: 0, z: -0.06087494}
 --- !u!1 &222967845
 GameObject:
   m_ObjectHideFlags: 0
@@ -710,6 +789,7 @@ GameObject:
   m_Component:
   - component: {fileID: 222967846}
   - component: {fileID: 222967847}
+  - component: {fileID: 222967848}
   m_Layer: 0
   m_Name: watercolor-tree-9 (2)
   m_TagString: Untagged
@@ -763,7 +843,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 562c72fe3bab0014da595e4572da70a6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -774,6 +854,18 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!65 &222967848
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 222967845}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.690895, y: 12.4, z: 1.3435059}
+  m_Center: {x: 0.30171204, y: 0, z: -0.06087494}
 --- !u!1 &268568789
 GameObject:
   m_ObjectHideFlags: 0
@@ -783,6 +875,7 @@ GameObject:
   m_Component:
   - component: {fileID: 268568790}
   - component: {fileID: 268568791}
+  - component: {fileID: 268568792}
   m_Layer: 0
   m_Name: watercolor-tree-11 (5)
   m_TagString: Untagged
@@ -836,7 +929,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 42612e3e3fb6fb94ab1bfa268fcfcf6b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -847,6 +940,18 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!65 &268568792
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 268568789}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.690895, y: 12.4, z: 1.3435059}
+  m_Center: {x: 0.30171204, y: 0, z: -0.06087494}
 --- !u!1 &318845446
 GameObject:
   m_ObjectHideFlags: 0
@@ -897,7 +1002,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: fce1f0fa8f942bc47b4e169f5655b8b0, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6e1f5841fb302c542bf874487f6ee3d8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -918,7 +1023,7 @@ Transform:
   m_LocalScale: {x: 100, y: 100, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &340069954
 GameObject:
@@ -929,6 +1034,7 @@ GameObject:
   m_Component:
   - component: {fileID: 340069955}
   - component: {fileID: 340069956}
+  - component: {fileID: 340069957}
   m_Layer: 0
   m_Name: watercolor-tree-11 (6)
   m_TagString: Untagged
@@ -993,6 +1099,18 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!65 &340069957
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 340069954}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.690895, y: 12.4, z: 1.3435059}
+  m_Center: {x: 0.30171204, y: 0, z: -0.06087494}
 --- !u!1 &375786286
 GameObject:
   m_ObjectHideFlags: 0
@@ -1002,6 +1120,7 @@ GameObject:
   m_Component:
   - component: {fileID: 375786287}
   - component: {fileID: 375786288}
+  - component: {fileID: 375786289}
   m_Layer: 0
   m_Name: watercolor-tree-9 (5)
   m_TagString: Untagged
@@ -1066,6 +1185,18 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!65 &375786289
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 375786286}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.690895, y: 12.4, z: 1.3435059}
+  m_Center: {x: 0.30171204, y: 0, z: -0.06087494}
 --- !u!1 &405996256
 GameObject:
   m_ObjectHideFlags: 0
@@ -1075,6 +1206,7 @@ GameObject:
   m_Component:
   - component: {fileID: 405996257}
   - component: {fileID: 405996258}
+  - component: {fileID: 405996259}
   m_Layer: 0
   m_Name: watercolor-tree-11 (1)
   m_TagString: Untagged
@@ -1139,6 +1271,18 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!65 &405996259
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 405996256}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.690895, y: 12.4, z: 1.3435059}
+  m_Center: {x: 0.30171204, y: 0, z: -0.06087494}
 --- !u!1 &417803772
 GameObject:
   m_ObjectHideFlags: 0
@@ -1199,7 +1343,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &431157834
 GameObject:
@@ -1210,6 +1354,7 @@ GameObject:
   m_Component:
   - component: {fileID: 431157835}
   - component: {fileID: 431157836}
+  - component: {fileID: 431157837}
   m_Layer: 0
   m_Name: watercolor-tree-10 (9)
   m_TagString: Untagged
@@ -1274,6 +1419,18 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!65 &431157837
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 431157834}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.690895, y: 12.4, z: 1.3435059}
+  m_Center: {x: 0.30171204, y: 0, z: -0.06087494}
 --- !u!1 &439265861
 GameObject:
   m_ObjectHideFlags: 0
@@ -1283,6 +1440,7 @@ GameObject:
   m_Component:
   - component: {fileID: 439265862}
   - component: {fileID: 439265863}
+  - component: {fileID: 439265864}
   m_Layer: 0
   m_Name: watercolor-tree-11 (2)
   m_TagString: Untagged
@@ -1347,6 +1505,18 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!65 &439265864
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 439265861}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.690895, y: 12.4, z: 1.3435059}
+  m_Center: {x: 0.30171204, y: 0, z: -0.06087494}
 --- !u!1 &490960856
 GameObject:
   m_ObjectHideFlags: 0
@@ -1356,6 +1526,7 @@ GameObject:
   m_Component:
   - component: {fileID: 490960857}
   - component: {fileID: 490960858}
+  - component: {fileID: 490960859}
   m_Layer: 0
   m_Name: watercolor-tree-10 (8)
   m_TagString: Untagged
@@ -1420,6 +1591,18 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!65 &490960859
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 490960856}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.690895, y: 12.4, z: 1.3435059}
+  m_Center: {x: 0.30171204, y: 0, z: -0.06087494}
 --- !u!1 &492852154
 GameObject:
   m_ObjectHideFlags: 0
@@ -1526,13 +1709,87 @@ Transform:
   - {fileID: 1195375729}
   - {fileID: 922681539}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!224 &504194919 stripped
 RectTransform:
   m_PrefabParentObject: {fileID: 224658128935913940, guid: 5df157eb604952f439e8027643557477,
     type: 2}
   m_PrefabInternal: {fileID: 810955690}
+--- !u!1 &533725817
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 533725818}
+  - component: {fileID: 533725820}
+  - component: {fileID: 533725819}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &533725818
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 533725817}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2095039905}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &533725819
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 533725817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 50
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 50
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: EXIT
+--- !u!222 &533725820
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 533725817}
 --- !u!1 &538499169
 GameObject:
   m_ObjectHideFlags: 0
@@ -1542,6 +1799,7 @@ GameObject:
   m_Component:
   - component: {fileID: 538499170}
   - component: {fileID: 538499171}
+  - component: {fileID: 538499172}
   m_Layer: 0
   m_Name: watercolor-tree-10 (4)
   m_TagString: Untagged
@@ -1595,7 +1853,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 42dc660c35a06754db19f0321dee3183, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1606,6 +1864,18 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!65 &538499172
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 538499169}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.690895, y: 12.4, z: 1.3435059}
+  m_Center: {x: 0.30171204, y: 0, z: -0.06087494}
 --- !u!1 &592879888
 GameObject:
   m_ObjectHideFlags: 0
@@ -1615,6 +1885,7 @@ GameObject:
   m_Component:
   - component: {fileID: 592879889}
   - component: {fileID: 592879890}
+  - component: {fileID: 592879891}
   m_Layer: 0
   m_Name: watercolor-tree-10 (13)
   m_TagString: Untagged
@@ -1668,7 +1939,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 42dc660c35a06754db19f0321dee3183, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1679,6 +1950,18 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!65 &592879891
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 592879888}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.690895, y: 12.4, z: 1.3435059}
+  m_Center: {x: 0.30171204, y: 0, z: -0.06087494}
 --- !u!1 &639991900
 GameObject:
   m_ObjectHideFlags: 0
@@ -1688,6 +1971,7 @@ GameObject:
   m_Component:
   - component: {fileID: 639991901}
   - component: {fileID: 639991902}
+  - component: {fileID: 639991903}
   m_Layer: 0
   m_Name: watercolor-tree-11 (1)
   m_TagString: Untagged
@@ -1752,6 +2036,18 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!65 &639991903
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 639991900}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.690895, y: 12.4, z: 1.3435059}
+  m_Center: {x: 0.30171204, y: 0, z: -0.06087494}
 --- !u!1 &660070580
 GameObject:
   m_ObjectHideFlags: 0
@@ -1761,6 +2057,7 @@ GameObject:
   m_Component:
   - component: {fileID: 660070581}
   - component: {fileID: 660070582}
+  - component: {fileID: 660070583}
   m_Layer: 0
   m_Name: watercolor-tree-10 (3)
   m_TagString: Untagged
@@ -1814,7 +2111,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 42dc660c35a06754db19f0321dee3183, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1825,6 +2122,18 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!65 &660070583
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 660070580}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.690895, y: 12.4, z: 1.3435059}
+  m_Center: {x: 0.30171204, y: 0, z: -0.06087494}
 --- !u!1 &707587122
 GameObject:
   m_ObjectHideFlags: 0
@@ -1834,6 +2143,7 @@ GameObject:
   m_Component:
   - component: {fileID: 707587123}
   - component: {fileID: 707587124}
+  - component: {fileID: 707587125}
   m_Layer: 0
   m_Name: watercolor-tree-10 (1)
   m_TagString: Untagged
@@ -1887,7 +2197,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 42dc660c35a06754db19f0321dee3183, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1898,6 +2208,18 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!65 &707587125
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 707587122}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.690895, y: 12.4, z: 1.3435059}
+  m_Center: {x: 0.30171204, y: 0, z: -0.06087494}
 --- !u!1 &719051456
 GameObject:
   m_ObjectHideFlags: 0
@@ -1907,6 +2229,7 @@ GameObject:
   m_Component:
   - component: {fileID: 719051457}
   - component: {fileID: 719051458}
+  - component: {fileID: 719051459}
   m_Layer: 0
   m_Name: watercolor-tree-11 (5)
   m_TagString: Untagged
@@ -1971,6 +2294,18 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!65 &719051459
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 719051456}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.690895, y: 12.4, z: 1.3435059}
+  m_Center: {x: 0.30171204, y: 0, z: -0.06087494}
 --- !u!1 &721448163
 GameObject:
   m_ObjectHideFlags: 0
@@ -1980,6 +2315,7 @@ GameObject:
   m_Component:
   - component: {fileID: 721448164}
   - component: {fileID: 721448165}
+  - component: {fileID: 721448166}
   m_Layer: 0
   m_Name: watercolor-tree-9 (2)
   m_TagString: Untagged
@@ -2044,6 +2380,18 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!65 &721448166
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 721448163}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.690895, y: 12.4, z: 1.3435059}
+  m_Center: {x: 0.30171204, y: 0, z: -0.06087494}
 --- !u!1 &730245252
 GameObject:
   m_ObjectHideFlags: 0
@@ -2071,7 +2419,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 41.63, y: 149.04, z: 0}
 --- !u!108 &730245254
 Light:
@@ -2118,6 +2466,7 @@ GameObject:
   m_Component:
   - component: {fileID: 731190345}
   - component: {fileID: 731190346}
+  - component: {fileID: 731190347}
   m_Layer: 0
   m_Name: watercolor-tree-2 (2)
   m_TagString: Untagged
@@ -2182,6 +2531,18 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!65 &731190347
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 731190344}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.690895, y: 12.4, z: 1.3435059}
+  m_Center: {x: 0.30171204, y: 0, z: -0.06087494}
 --- !u!1 &768967130
 GameObject:
   m_ObjectHideFlags: 0
@@ -2191,6 +2552,7 @@ GameObject:
   m_Component:
   - component: {fileID: 768967132}
   - component: {fileID: 768967131}
+  - component: {fileID: 768967133}
   m_Layer: 0
   m_Name: watercolor-tree-2 (2)
   m_TagString: Untagged
@@ -2231,7 +2593,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 8ae84d8652e451941ac549c4092d30d5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2255,6 +2617,18 @@ Transform:
   m_Father: {fileID: 492852156}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &768967133
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 768967130}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.690895, y: 12.4, z: 1.3435059}
+  m_Center: {x: 0.30171204, y: 0, z: -0.06087494}
 --- !u!1001 &810955690
 Prefab:
   m_ObjectHideFlags: 0
@@ -2300,7 +2674,7 @@ Prefab:
     - target: {fileID: 224658128935913940, guid: 5df157eb604952f439e8027643557477,
         type: 2}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224658128935913940, guid: 5df157eb604952f439e8027643557477,
         type: 2}
@@ -2368,6 +2742,7 @@ GameObject:
   m_Component:
   - component: {fileID: 834498001}
   - component: {fileID: 834498002}
+  - component: {fileID: 834498003}
   m_Layer: 0
   m_Name: watercolor-tree-10 (1)
   m_TagString: Untagged
@@ -2432,6 +2807,18 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!65 &834498003
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 834498000}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.690895, y: 12.4, z: 1.3435059}
+  m_Center: {x: 0.30171204, y: 0, z: -0.06087494}
 --- !u!1 &836834638
 GameObject:
   m_ObjectHideFlags: 0
@@ -2441,6 +2828,7 @@ GameObject:
   m_Component:
   - component: {fileID: 836834639}
   - component: {fileID: 836834640}
+  - component: {fileID: 836834641}
   m_Layer: 0
   m_Name: watercolor-tree-9 (6)
   m_TagString: Untagged
@@ -2494,7 +2882,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 562c72fe3bab0014da595e4572da70a6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2505,6 +2893,18 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!65 &836834641
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 836834638}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.690895, y: 12.4, z: 1.3435059}
+  m_Center: {x: 0.30171204, y: 0, z: -0.06087494}
 --- !u!1 &846814508
 GameObject:
   m_ObjectHideFlags: 0
@@ -2514,6 +2914,7 @@ GameObject:
   m_Component:
   - component: {fileID: 846814509}
   - component: {fileID: 846814510}
+  - component: {fileID: 846814511}
   m_Layer: 0
   m_Name: watercolor-tree-10 (11)
   m_TagString: Untagged
@@ -2578,6 +2979,18 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!65 &846814511
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 846814508}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.690895, y: 12.4, z: 1.3435059}
+  m_Center: {x: 0.30171204, y: 0, z: -0.06087494}
 --- !u!1 &874075310
 GameObject:
   m_ObjectHideFlags: 0
@@ -2587,6 +3000,7 @@ GameObject:
   m_Component:
   - component: {fileID: 874075311}
   - component: {fileID: 874075312}
+  - component: {fileID: 874075313}
   m_Layer: 0
   m_Name: watercolor-tree-11 (7)
   m_TagString: Untagged
@@ -2651,6 +3065,18 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!65 &874075313
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 874075310}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.690895, y: 12.4, z: 1.3435059}
+  m_Center: {x: 0.30171204, y: 0, z: -0.06087494}
 --- !u!1 &884478105
 GameObject:
   m_ObjectHideFlags: 0
@@ -2660,6 +3086,7 @@ GameObject:
   m_Component:
   - component: {fileID: 884478106}
   - component: {fileID: 884478107}
+  - component: {fileID: 884478108}
   m_Layer: 0
   m_Name: watercolor-tree-9 (3)
   m_TagString: Untagged
@@ -2713,7 +3140,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 562c72fe3bab0014da595e4572da70a6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2724,6 +3151,18 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!65 &884478108
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 884478105}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.690895, y: 12.4, z: 1.3435059}
+  m_Center: {x: 0.30171204, y: 0, z: -0.06087494}
 --- !u!1 &895571091
 GameObject:
   m_ObjectHideFlags: 0
@@ -2807,7 +3246,7 @@ Transform:
   m_LocalScale: {x: 7.320315, y: 9.931558, z: 1.5750139}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &895571096
 MonoBehaviour:
@@ -2829,6 +3268,7 @@ GameObject:
   m_Component:
   - component: {fileID: 907001008}
   - component: {fileID: 907001009}
+  - component: {fileID: 907001010}
   m_Layer: 0
   m_Name: watercolor-tree-10 (6)
   m_TagString: Untagged
@@ -2893,6 +3333,18 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!65 &907001010
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 907001007}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.690895, y: 12.4, z: 1.3435059}
+  m_Center: {x: 0.30171204, y: 0, z: -0.06087494}
 --- !u!1 &922681537
 GameObject:
   m_ObjectHideFlags: 0
@@ -3005,6 +3457,7 @@ GameObject:
   m_Component:
   - component: {fileID: 941701255}
   - component: {fileID: 941701256}
+  - component: {fileID: 941701257}
   m_Layer: 0
   m_Name: watercolor-tree-10 (5)
   m_TagString: Untagged
@@ -3069,6 +3522,18 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!65 &941701257
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 941701254}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.690895, y: 12.4, z: 1.3435059}
+  m_Center: {x: 0.30171204, y: 0, z: -0.06087494}
 --- !u!1 &945036570
 GameObject:
   m_ObjectHideFlags: 0
@@ -3078,6 +3543,7 @@ GameObject:
   m_Component:
   - component: {fileID: 945036571}
   - component: {fileID: 945036572}
+  - component: {fileID: 945036573}
   m_Layer: 0
   m_Name: watercolor-tree-10 (13)
   m_TagString: Untagged
@@ -3142,6 +3608,18 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!65 &945036573
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 945036570}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.690895, y: 12.4, z: 1.3435059}
+  m_Center: {x: 0.30171204, y: 0, z: -0.06087494}
 --- !u!1 &962302204
 GameObject:
   m_ObjectHideFlags: 0
@@ -3151,6 +3629,7 @@ GameObject:
   m_Component:
   - component: {fileID: 962302205}
   - component: {fileID: 962302206}
+  - component: {fileID: 962302207}
   m_Layer: 0
   m_Name: watercolor-tree-10 (5)
   m_TagString: Untagged
@@ -3204,7 +3683,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 42dc660c35a06754db19f0321dee3183, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3215,6 +3694,18 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!65 &962302207
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 962302204}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.690895, y: 12.4, z: 1.3435059}
+  m_Center: {x: 0.30171204, y: 0, z: -0.06087494}
 --- !u!1 &1007397885
 GameObject:
   m_ObjectHideFlags: 0
@@ -3224,6 +3715,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1007397886}
   - component: {fileID: 1007397887}
+  - component: {fileID: 1007397888}
   m_Layer: 0
   m_Name: watercolor-tree-10 (10)
   m_TagString: Untagged
@@ -3288,6 +3780,18 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!65 &1007397888
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1007397885}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.690895, y: 12.4, z: 1.3435059}
+  m_Center: {x: 0.30171204, y: 0, z: -0.06087494}
 --- !u!1001 &1014614825
 Prefab:
   m_ObjectHideFlags: 0
@@ -3325,13 +3829,14 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4028090150921870, guid: 0574d23bfb762b04992225f82a882237, type: 2}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1616863603954658, guid: 0574d23bfb762b04992225f82a882237, type: 2}
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 81306722718738272, guid: 0574d23bfb762b04992225f82a882237, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 0574d23bfb762b04992225f82a882237, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &1022215761
@@ -3343,6 +3848,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1022215762}
   - component: {fileID: 1022215763}
+  - component: {fileID: 1022215764}
   m_Layer: 0
   m_Name: watercolor-tree-10 (2)
   m_TagString: Untagged
@@ -3407,6 +3913,18 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!65 &1022215764
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1022215761}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.690895, y: 12.4, z: 1.3435059}
+  m_Center: {x: 0.30171204, y: 0, z: -0.06087494}
 --- !u!1 &1054504429
 GameObject:
   m_ObjectHideFlags: 0
@@ -3416,6 +3934,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1054504430}
   - component: {fileID: 1054504431}
+  - component: {fileID: 1054504432}
   m_Layer: 0
   m_Name: watercolor-tree-10 (3)
   m_TagString: Untagged
@@ -3480,6 +3999,18 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!65 &1054504432
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1054504429}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.690895, y: 12.4, z: 1.3435059}
+  m_Center: {x: 0.30171204, y: 0, z: -0.06087494}
 --- !u!1 &1055351793
 GameObject:
   m_ObjectHideFlags: 0
@@ -3489,6 +4020,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1055351795}
   - component: {fileID: 1055351794}
+  - component: {fileID: 1055351796}
   m_Layer: 0
   m_Name: watercolor-tree-2 (1)
   m_TagString: Untagged
@@ -3529,7 +4061,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 8ae84d8652e451941ac549c4092d30d5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3553,6 +4085,18 @@ Transform:
   m_Father: {fileID: 492852156}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1055351796
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1055351793}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.690895, y: 12.4, z: 1.3435059}
+  m_Center: {x: 0.30171204, y: 0, z: -0.06087494}
 --- !u!1 &1067841716
 GameObject:
   m_ObjectHideFlags: 0
@@ -3562,6 +4106,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1067841717}
   - component: {fileID: 1067841718}
+  - component: {fileID: 1067841719}
   m_Layer: 0
   m_Name: watercolor-tree-9 (4)
   m_TagString: Untagged
@@ -3615,7 +4160,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 562c72fe3bab0014da595e4572da70a6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3626,6 +4171,18 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!65 &1067841719
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1067841716}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.690895, y: 12.4, z: 1.3435059}
+  m_Center: {x: 0.30171204, y: 0, z: -0.06087494}
 --- !u!1 &1084703493
 GameObject:
   m_ObjectHideFlags: 0
@@ -3635,6 +4192,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1084703494}
   - component: {fileID: 1084703495}
+  - component: {fileID: 1084703496}
   m_Layer: 0
   m_Name: watercolor-tree-11 (2)
   m_TagString: Untagged
@@ -3699,6 +4257,18 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!65 &1084703496
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1084703493}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.690895, y: 12.4, z: 1.3435059}
+  m_Center: {x: 0.30171204, y: 0, z: -0.06087494}
 --- !u!1 &1087064112
 GameObject:
   m_ObjectHideFlags: 0
@@ -3708,6 +4278,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1087064113}
   - component: {fileID: 1087064114}
+  - component: {fileID: 1087064115}
   m_Layer: 0
   m_Name: watercolor-tree-2 (1)
   m_TagString: Untagged
@@ -3772,6 +4343,18 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!65 &1087064115
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1087064112}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.690895, y: 12.4, z: 1.3435059}
+  m_Center: {x: 0.30171204, y: 0, z: -0.06087494}
 --- !u!1 &1142955454
 GameObject:
   m_ObjectHideFlags: 0
@@ -3781,6 +4364,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1142955455}
   - component: {fileID: 1142955456}
+  - component: {fileID: 1142955457}
   m_Layer: 0
   m_Name: watercolor-tree-10 (9)
   m_TagString: Untagged
@@ -3834,7 +4418,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 42dc660c35a06754db19f0321dee3183, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3845,6 +4429,18 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!65 &1142955457
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1142955454}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.690895, y: 12.4, z: 1.3435059}
+  m_Center: {x: 0.30171204, y: 0, z: -0.06087494}
 --- !u!1 &1144048279 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1879140177355482, guid: 45ff6dd1fef221b4897f0755ea504adb,
@@ -3873,6 +4469,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1174140335}
   - component: {fileID: 1174140336}
+  - component: {fileID: 1174140337}
   m_Layer: 0
   m_Name: watercolor-tree-10 (14)
   m_TagString: Untagged
@@ -3926,7 +4523,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 42dc660c35a06754db19f0321dee3183, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3937,6 +4534,18 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!65 &1174140337
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1174140334}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.690895, y: 12.4, z: 1.3435059}
+  m_Center: {x: 0.30171204, y: 0, z: -0.06087494}
 --- !u!1 &1176722811
 GameObject:
   m_ObjectHideFlags: 0
@@ -3946,6 +4555,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1176722812}
   - component: {fileID: 1176722813}
+  - component: {fileID: 1176722814}
   m_Layer: 0
   m_Name: watercolor-tree-10 (5)
   m_TagString: Untagged
@@ -4010,6 +4620,18 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!65 &1176722814
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1176722811}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.690895, y: 12.4, z: 1.3435059}
+  m_Center: {x: 0.30171204, y: 0, z: -0.06087494}
 --- !u!1 &1184369856
 GameObject:
   m_ObjectHideFlags: 0
@@ -4019,6 +4641,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1184369857}
   - component: {fileID: 1184369858}
+  - component: {fileID: 1184369859}
   m_Layer: 0
   m_Name: watercolor-tree-9 (7)
   m_TagString: Untagged
@@ -4083,6 +4706,18 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!65 &1184369859
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1184369856}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.690895, y: 12.4, z: 1.3435059}
+  m_Center: {x: 0.30171204, y: 0, z: -0.06087494}
 --- !u!1 &1193009225
 GameObject:
   m_ObjectHideFlags: 0
@@ -4092,6 +4727,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1193009226}
   - component: {fileID: 1193009227}
+  - component: {fileID: 1193009228}
   m_Layer: 0
   m_Name: watercolor-tree-2 (1)
   m_TagString: Untagged
@@ -4156,6 +4792,18 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!65 &1193009228
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1193009225}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.690895, y: 12.4, z: 1.3435059}
+  m_Center: {x: 0.30171204, y: 0, z: -0.06087494}
 --- !u!1 &1195375727
 GameObject:
   m_ObjectHideFlags: 0
@@ -4263,6 +4911,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1210360574}
   - component: {fileID: 1210360575}
+  - component: {fileID: 1210360576}
   m_Layer: 0
   m_Name: watercolor-tree-10 (11)
   m_TagString: Untagged
@@ -4316,7 +4965,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 42dc660c35a06754db19f0321dee3183, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -4327,6 +4976,18 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!65 &1210360576
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1210360573}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.690895, y: 12.4, z: 1.3435059}
+  m_Center: {x: 0.30171204, y: 0, z: -0.06087494}
 --- !u!1 &1222034220
 GameObject:
   m_ObjectHideFlags: 0
@@ -4410,7 +5071,7 @@ Transform:
   m_LocalScale: {x: 5215.9395, y: 1, z: 5280.0684}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &1222034226
 Animator:
@@ -4438,6 +5099,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1223430842}
   - component: {fileID: 1223430843}
+  - component: {fileID: 1223430844}
   m_Layer: 0
   m_Name: watercolor-tree-9 (3)
   m_TagString: Untagged
@@ -4502,6 +5164,18 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!65 &1223430844
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1223430841}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.690895, y: 12.4, z: 1.3435059}
+  m_Center: {x: 0.30171204, y: 0, z: -0.06087494}
 --- !u!1 &1249641156
 GameObject:
   m_ObjectHideFlags: 0
@@ -4511,6 +5185,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1249641157}
   - component: {fileID: 1249641158}
+  - component: {fileID: 1249641159}
   m_Layer: 0
   m_Name: watercolor-tree-11
   m_TagString: Untagged
@@ -4564,7 +5239,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 42612e3e3fb6fb94ab1bfa268fcfcf6b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -4575,6 +5250,18 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!65 &1249641159
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1249641156}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.690895, y: 12.4, z: 1.3435059}
+  m_Center: {x: 0.30171204, y: 0, z: -0.06087494}
 --- !u!1 &1276240582
 GameObject:
   m_ObjectHideFlags: 0
@@ -4584,6 +5271,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1276240583}
   - component: {fileID: 1276240584}
+  - component: {fileID: 1276240585}
   m_Layer: 0
   m_Name: watercolor-tree-10
   m_TagString: Untagged
@@ -4637,7 +5325,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 42dc660c35a06754db19f0321dee3183, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -4648,6 +5336,18 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!65 &1276240585
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1276240582}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.690895, y: 12.4, z: 1.3435059}
+  m_Center: {x: 0.30171204, y: 0, z: -0.06087494}
 --- !u!1 &1282354334
 GameObject:
   m_ObjectHideFlags: 0
@@ -4657,6 +5357,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1282354335}
   - component: {fileID: 1282354336}
+  - component: {fileID: 1282354337}
   m_Layer: 0
   m_Name: watercolor-tree-9 (6)
   m_TagString: Untagged
@@ -4721,6 +5422,18 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!65 &1282354337
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1282354334}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.690895, y: 12.4, z: 1.3435059}
+  m_Center: {x: 0.30171204, y: 0, z: -0.06087494}
 --- !u!1 &1300297312
 GameObject:
   m_ObjectHideFlags: 0
@@ -4730,6 +5443,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1300297313}
   - component: {fileID: 1300297314}
+  - component: {fileID: 1300297315}
   m_Layer: 0
   m_Name: watercolor-tree-10 (11)
   m_TagString: Untagged
@@ -4794,6 +5508,18 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!65 &1300297315
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1300297312}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.690895, y: 12.4, z: 1.3435059}
+  m_Center: {x: 0.30171204, y: 0, z: -0.06087494}
 --- !u!1 &1335183692
 GameObject:
   m_ObjectHideFlags: 0
@@ -4803,6 +5529,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1335183693}
   - component: {fileID: 1335183694}
+  - component: {fileID: 1335183695}
   m_Layer: 0
   m_Name: watercolor-tree-10 (2)
   m_TagString: Untagged
@@ -4856,7 +5583,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 42dc660c35a06754db19f0321dee3183, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -4867,6 +5594,18 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!65 &1335183695
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1335183692}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.690895, y: 12.4, z: 1.3435059}
+  m_Center: {x: 0.30171204, y: 0, z: -0.06087494}
 --- !u!1 &1349588191
 GameObject:
   m_ObjectHideFlags: 0
@@ -4876,6 +5615,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1349588192}
   - component: {fileID: 1349588193}
+  - component: {fileID: 1349588194}
   m_Layer: 0
   m_Name: watercolor-tree-9 (4)
   m_TagString: Untagged
@@ -4940,6 +5680,18 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!65 &1349588194
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1349588191}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.690895, y: 12.4, z: 1.3435059}
+  m_Center: {x: 0.30171204, y: 0, z: -0.06087494}
 --- !u!1 &1349698673
 GameObject:
   m_ObjectHideFlags: 0
@@ -4949,6 +5701,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1349698674}
   - component: {fileID: 1349698675}
+  - component: {fileID: 1349698676}
   m_Layer: 0
   m_Name: watercolor-tree-10
   m_TagString: Untagged
@@ -5013,6 +5766,18 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!65 &1349698676
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1349698673}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.690895, y: 12.4, z: 1.3435059}
+  m_Center: {x: 0.30171204, y: 0, z: -0.06087494}
 --- !u!1 &1357265175
 GameObject:
   m_ObjectHideFlags: 0
@@ -5022,6 +5787,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1357265176}
   - component: {fileID: 1357265177}
+  - component: {fileID: 1357265178}
   m_Layer: 0
   m_Name: watercolor-tree-10 (4)
   m_TagString: Untagged
@@ -5086,6 +5852,18 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!65 &1357265178
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1357265175}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.690895, y: 12.4, z: 1.3435059}
+  m_Center: {x: 0.30171204, y: 0, z: -0.06087494}
 --- !u!1 &1363425598
 GameObject:
   m_ObjectHideFlags: 0
@@ -5095,6 +5873,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1363425599}
   - component: {fileID: 1363425600}
+  - component: {fileID: 1363425601}
   m_Layer: 0
   m_Name: watercolor-tree-11 (7)
   m_TagString: Untagged
@@ -5148,7 +5927,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 42612e3e3fb6fb94ab1bfa268fcfcf6b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -5159,6 +5938,18 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!65 &1363425601
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1363425598}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.690895, y: 12.4, z: 1.3435059}
+  m_Center: {x: 0.30171204, y: 0, z: -0.06087494}
 --- !u!1 &1381782402
 GameObject:
   m_ObjectHideFlags: 0
@@ -5168,6 +5959,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1381782403}
   - component: {fileID: 1381782404}
+  - component: {fileID: 1381782405}
   m_Layer: 0
   m_Name: watercolor-tree-11
   m_TagString: Untagged
@@ -5232,6 +6024,18 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!65 &1381782405
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1381782402}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.690895, y: 12.4, z: 1.3435059}
+  m_Center: {x: 0.30171204, y: 0, z: -0.06087494}
 --- !u!1 &1390966994
 GameObject:
   m_ObjectHideFlags: 0
@@ -5241,6 +6045,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1390966995}
   - component: {fileID: 1390966996}
+  - component: {fileID: 1390966997}
   m_Layer: 0
   m_Name: watercolor-tree-10 (10)
   m_TagString: Untagged
@@ -5294,7 +6099,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 42dc660c35a06754db19f0321dee3183, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -5305,6 +6110,18 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!65 &1390966997
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1390966994}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.690895, y: 12.4, z: 1.3435059}
+  m_Center: {x: 0.30171204, y: 0, z: -0.06087494}
 --- !u!1 &1418649325
 GameObject:
   m_ObjectHideFlags: 0
@@ -5376,7 +6193,7 @@ Transform:
   m_LocalScale: {x: 2.9259608, y: 3.519034, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1423698352
 GameObject:
@@ -5387,6 +6204,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1423698353}
   - component: {fileID: 1423698354}
+  - component: {fileID: 1423698355}
   m_Layer: 0
   m_Name: watercolor-tree-9 (7)
   m_TagString: Untagged
@@ -5440,7 +6258,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 562c72fe3bab0014da595e4572da70a6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -5451,6 +6269,76 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!65 &1423698355
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1423698352}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.690895, y: 12.4, z: 1.3435059}
+  m_Center: {x: 0.30171204, y: 0, z: -0.06087494}
+--- !u!1001 &1435841159
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400002, guid: a53ed8e9e8687a4418ba4980b9899666, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -716.78613
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: a53ed8e9e8687a4418ba4980b9899666, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -58.574234
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: a53ed8e9e8687a4418ba4980b9899666, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 394.30856
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: a53ed8e9e8687a4418ba4980b9899666, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.029924976
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: a53ed8e9e8687a4418ba4980b9899666, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7192931
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: a53ed8e9e8687a4418ba4980b9899666, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.0945438
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: a53ed8e9e8687a4418ba4980b9899666, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.68759245
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: a53ed8e9e8687a4418ba4980b9899666, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: a53ed8e9e8687a4418ba4980b9899666, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 92.104004
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: a53ed8e9e8687a4418ba4980b9899666, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 10.012
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: a53ed8e9e8687a4418ba4980b9899666, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 62b150ebe85ccd742b3946ea401dad0e, type: 2}
+    - target: {fileID: 400002, guid: a53ed8e9e8687a4418ba4980b9899666, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -5.4430003
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: a53ed8e9e8687a4418ba4980b9899666, type: 3}
+  m_IsPrefabParent: 0
 --- !u!1 &1464330549
 GameObject:
   m_ObjectHideFlags: 0
@@ -5460,6 +6348,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1464330550}
   - component: {fileID: 1464330551}
+  - component: {fileID: 1464330552}
   m_Layer: 0
   m_Name: watercolor-tree-10 (14)
   m_TagString: Untagged
@@ -5524,6 +6413,18 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!65 &1464330552
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1464330549}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.690895, y: 12.4, z: 1.3435059}
+  m_Center: {x: 0.30171204, y: 0, z: -0.06087494}
 --- !u!1 &1471853030
 GameObject:
   m_ObjectHideFlags: 0
@@ -5533,6 +6434,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1471853031}
   - component: {fileID: 1471853032}
+  - component: {fileID: 1471853033}
   m_Layer: 0
   m_Name: watercolor-tree-10 (7)
   m_TagString: Untagged
@@ -5597,6 +6499,18 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!65 &1471853033
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1471853030}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.690895, y: 12.4, z: 1.3435059}
+  m_Center: {x: 0.30171204, y: 0, z: -0.06087494}
 --- !u!1 &1492117554
 GameObject:
   m_ObjectHideFlags: 0
@@ -5606,6 +6520,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1492117555}
   - component: {fileID: 1492117556}
+  - component: {fileID: 1492117557}
   m_Layer: 0
   m_Name: watercolor-tree-11 (6)
   m_TagString: Untagged
@@ -5659,7 +6574,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 42612e3e3fb6fb94ab1bfa268fcfcf6b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -5670,6 +6585,18 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!65 &1492117557
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1492117554}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.690895, y: 12.4, z: 1.3435059}
+  m_Center: {x: 0.30171204, y: 0, z: -0.06087494}
 --- !u!1 &1531680537
 GameObject:
   m_ObjectHideFlags: 0
@@ -5679,6 +6606,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1531680538}
   - component: {fileID: 1531680539}
+  - component: {fileID: 1531680540}
   m_Layer: 0
   m_Name: watercolor-tree-9 (1)
   m_TagString: Untagged
@@ -5743,6 +6671,18 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!65 &1531680540
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1531680537}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.690895, y: 12.4, z: 1.3435059}
+  m_Center: {x: 0.30171204, y: 0, z: -0.06087494}
 --- !u!1 &1605621789
 GameObject:
   m_ObjectHideFlags: 0
@@ -5752,6 +6692,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1605621790}
   - component: {fileID: 1605621791}
+  - component: {fileID: 1605621792}
   m_Layer: 0
   m_Name: watercolor-tree-11 (1)
   m_TagString: Untagged
@@ -5805,7 +6746,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 42612e3e3fb6fb94ab1bfa268fcfcf6b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -5816,6 +6757,18 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!65 &1605621792
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1605621789}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.690895, y: 12.4, z: 1.3435059}
+  m_Center: {x: 0.30171204, y: 0, z: -0.06087494}
 --- !u!1 &1610033046
 GameObject:
   m_ObjectHideFlags: 0
@@ -5825,6 +6778,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1610033047}
   - component: {fileID: 1610033048}
+  - component: {fileID: 1610033049}
   m_Layer: 0
   m_Name: watercolor-tree-11 (2)
   m_TagString: Untagged
@@ -5878,7 +6832,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 42612e3e3fb6fb94ab1bfa268fcfcf6b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -5889,6 +6843,18 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!65 &1610033049
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1610033046}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.690895, y: 12.4, z: 1.3435059}
+  m_Center: {x: 0.30171204, y: 0, z: -0.06087494}
 --- !u!1 &1615522392
 GameObject:
   m_ObjectHideFlags: 0
@@ -5898,6 +6864,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1615522393}
   - component: {fileID: 1615522394}
+  - component: {fileID: 1615522395}
   m_Layer: 0
   m_Name: watercolor-tree-11
   m_TagString: Untagged
@@ -5962,6 +6929,18 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!65 &1615522395
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1615522392}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.690895, y: 12.4, z: 1.3435059}
+  m_Center: {x: 0.30171204, y: 0, z: -0.06087494}
 --- !u!1 &1642538356
 GameObject:
   m_ObjectHideFlags: 0
@@ -5971,6 +6950,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1642538357}
   - component: {fileID: 1642538358}
+  - component: {fileID: 1642538359}
   m_Layer: 0
   m_Name: watercolor-tree-11 (5)
   m_TagString: Untagged
@@ -6035,6 +7015,18 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!65 &1642538359
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1642538356}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.690895, y: 12.4, z: 1.3435059}
+  m_Center: {x: 0.30171204, y: 0, z: -0.06087494}
 --- !u!1 &1649625684
 GameObject:
   m_ObjectHideFlags: 0
@@ -6044,6 +7036,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1649625685}
   - component: {fileID: 1649625686}
+  - component: {fileID: 1649625687}
   m_Layer: 0
   m_Name: watercolor-tree-11 (4)
   m_TagString: Untagged
@@ -6108,6 +7101,18 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!65 &1649625687
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1649625684}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.690895, y: 12.4, z: 1.3435059}
+  m_Center: {x: 0.30171204, y: 0, z: -0.06087494}
 --- !u!1 &1650779735
 GameObject:
   m_ObjectHideFlags: 0
@@ -6117,6 +7122,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1650779736}
   - component: {fileID: 1650779737}
+  - component: {fileID: 1650779738}
   m_Layer: 0
   m_Name: watercolor-tree-10 (12)
   m_TagString: Untagged
@@ -6170,7 +7176,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 42dc660c35a06754db19f0321dee3183, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -6181,6 +7187,18 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!65 &1650779738
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1650779735}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.690895, y: 12.4, z: 1.3435059}
+  m_Center: {x: 0.30171204, y: 0, z: -0.06087494}
 --- !u!1 &1683251450
 GameObject:
   m_ObjectHideFlags: 0
@@ -6275,7 +7293,7 @@ Transform:
   m_LocalScale: {x: 1323.3424, y: 1, z: 1357.0088}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1693204050
 GameObject:
@@ -6286,6 +7304,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1693204051}
   - component: {fileID: 1693204052}
+  - component: {fileID: 1693204053}
   m_Layer: 0
   m_Name: watercolor-tree-11 (4)
   m_TagString: Untagged
@@ -6350,6 +7369,18 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!65 &1693204053
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1693204050}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.690895, y: 12.4, z: 1.3435059}
+  m_Center: {x: 0.30171204, y: 0, z: -0.06087494}
 --- !u!1 &1745748321
 GameObject:
   m_ObjectHideFlags: 0
@@ -6359,6 +7390,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1745748322}
   - component: {fileID: 1745748323}
+  - component: {fileID: 1745748324}
   m_Layer: 0
   m_Name: watercolor-tree-9 (7)
   m_TagString: Untagged
@@ -6423,6 +7455,18 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!65 &1745748324
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1745748321}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.690895, y: 12.4, z: 1.3435059}
+  m_Center: {x: 0.30171204, y: 0, z: -0.06087494}
 --- !u!1 &1749007511
 GameObject:
   m_ObjectHideFlags: 0
@@ -6432,6 +7476,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1749007512}
   - component: {fileID: 1749007513}
+  - component: {fileID: 1749007514}
   m_Layer: 0
   m_Name: watercolor-tree-9
   m_TagString: Untagged
@@ -6485,7 +7530,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 562c72fe3bab0014da595e4572da70a6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -6496,6 +7541,18 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!65 &1749007514
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1749007511}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.690895, y: 12.4, z: 1.3435059}
+  m_Center: {x: 0.30171204, y: 0, z: -0.06087494}
 --- !u!1 &1772884445
 GameObject:
   m_ObjectHideFlags: 0
@@ -6505,6 +7562,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1772884446}
   - component: {fileID: 1772884447}
+  - component: {fileID: 1772884448}
   m_Layer: 0
   m_Name: watercolor-tree-9
   m_TagString: Untagged
@@ -6569,6 +7627,18 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!65 &1772884448
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1772884445}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.690895, y: 12.4, z: 1.3435059}
+  m_Center: {x: 0.30171204, y: 0, z: -0.06087494}
 --- !u!1 &1785694103
 GameObject:
   m_ObjectHideFlags: 0
@@ -6578,6 +7648,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1785694104}
   - component: {fileID: 1785694105}
+  - component: {fileID: 1785694106}
   m_Layer: 0
   m_Name: watercolor-tree-10 (8)
   m_TagString: Untagged
@@ -6642,6 +7713,18 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!65 &1785694106
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1785694103}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.690895, y: 12.4, z: 1.3435059}
+  m_Center: {x: 0.30171204, y: 0, z: -0.06087494}
 --- !u!1 &1819108514
 GameObject:
   m_ObjectHideFlags: 0
@@ -6651,6 +7734,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1819108515}
   - component: {fileID: 1819108516}
+  - component: {fileID: 1819108517}
   m_Layer: 0
   m_Name: watercolor-tree-10 (7)
   m_TagString: Untagged
@@ -6704,7 +7788,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 42dc660c35a06754db19f0321dee3183, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -6715,6 +7799,18 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!65 &1819108517
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1819108514}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.690895, y: 12.4, z: 1.3435059}
+  m_Center: {x: 0.30171204, y: 0, z: -0.06087494}
 --- !u!1 &1831415179
 GameObject:
   m_ObjectHideFlags: 0
@@ -6724,6 +7820,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1831415180}
   - component: {fileID: 1831415181}
+  - component: {fileID: 1831415182}
   m_Layer: 0
   m_Name: watercolor-tree-10 (2)
   m_TagString: Untagged
@@ -6788,6 +7885,18 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!65 &1831415182
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1831415179}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.690895, y: 12.4, z: 1.3435059}
+  m_Center: {x: 0.30171204, y: 0, z: -0.06087494}
 --- !u!1 &1876229668
 GameObject:
   m_ObjectHideFlags: 0
@@ -6797,6 +7906,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1876229669}
   - component: {fileID: 1876229670}
+  - component: {fileID: 1876229671}
   m_Layer: 0
   m_Name: watercolor-tree-2 (2)
   m_TagString: Untagged
@@ -6861,6 +7971,18 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!65 &1876229671
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1876229668}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.690895, y: 12.4, z: 1.3435059}
+  m_Center: {x: 0.30171204, y: 0, z: -0.06087494}
 --- !u!1 &1917577997
 GameObject:
   m_ObjectHideFlags: 0
@@ -6870,6 +7992,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1917577998}
   - component: {fileID: 1917577999}
+  - component: {fileID: 1917578000}
   m_Layer: 0
   m_Name: watercolor-tree-10 (7)
   m_TagString: Untagged
@@ -6934,6 +8057,18 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!65 &1917578000
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1917577997}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.690895, y: 12.4, z: 1.3435059}
+  m_Center: {x: 0.30171204, y: 0, z: -0.06087494}
 --- !u!1 &1969555937
 GameObject:
   m_ObjectHideFlags: 0
@@ -6943,6 +8078,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1969555939}
   - component: {fileID: 1969555938}
+  - component: {fileID: 1969555940}
   m_Layer: 0
   m_Name: controller
   m_TagString: Untagged
@@ -6961,6 +8097,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 81e40240aa701994bb638e697574c0be, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjustableWaterAnimator: {fileID: 1222034226}
 --- !u!4 &1969555939
 Transform:
   m_ObjectHideFlags: 0
@@ -6972,8 +8109,19 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1969555940
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1969555937}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0946f6561f004f4dbc31c77b107ffb5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2001530791
 GameObject:
   m_ObjectHideFlags: 0
@@ -6983,6 +8131,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2001530792}
   - component: {fileID: 2001530793}
+  - component: {fileID: 2001530794}
   m_Layer: 0
   m_Name: watercolor-tree-10
   m_TagString: Untagged
@@ -7047,6 +8196,18 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!65 &2001530794
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2001530791}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.690895, y: 12.4, z: 1.3435059}
+  m_Center: {x: 0.30171204, y: 0, z: -0.06087494}
 --- !u!1 &2017662182
 GameObject:
   m_ObjectHideFlags: 0
@@ -7056,6 +8217,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2017662183}
   - component: {fileID: 2017662184}
+  - component: {fileID: 2017662185}
   m_Layer: 0
   m_Name: watercolor-tree-11 (3)
   m_TagString: Untagged
@@ -7120,6 +8282,18 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!65 &2017662185
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2017662182}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.690895, y: 12.4, z: 1.3435059}
+  m_Center: {x: 0.30171204, y: 0, z: -0.06087494}
 --- !u!1 &2026867554
 GameObject:
   m_ObjectHideFlags: 0
@@ -7129,6 +8303,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2026867555}
   - component: {fileID: 2026867556}
+  - component: {fileID: 2026867557}
   m_Layer: 0
   m_Name: watercolor-tree-9 (1)
   m_TagString: Untagged
@@ -7182,7 +8357,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 562c72fe3bab0014da595e4572da70a6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -7193,6 +8368,18 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!65 &2026867557
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2026867554}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.690895, y: 12.4, z: 1.3435059}
+  m_Center: {x: 0.30171204, y: 0, z: -0.06087494}
 --- !u!1 &2029977283
 GameObject:
   m_ObjectHideFlags: 0
@@ -7202,6 +8389,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2029977284}
   - component: {fileID: 2029977285}
+  - component: {fileID: 2029977286}
   m_Layer: 0
   m_Name: watercolor-tree-11 (3)
   m_TagString: Untagged
@@ -7255,7 +8443,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 42612e3e3fb6fb94ab1bfa268fcfcf6b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -7266,6 +8454,18 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!65 &2029977286
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2029977283}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.690895, y: 12.4, z: 1.3435059}
+  m_Center: {x: 0.30171204, y: 0, z: -0.06087494}
 --- !u!1 &2039343260
 GameObject:
   m_ObjectHideFlags: 0
@@ -7275,6 +8475,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2039343261}
   - component: {fileID: 2039343262}
+  - component: {fileID: 2039343263}
   m_Layer: 0
   m_Name: watercolor-tree-9 (1)
   m_TagString: Untagged
@@ -7339,6 +8540,18 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!65 &2039343263
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2039343260}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.690895, y: 12.4, z: 1.3435059}
+  m_Center: {x: 0.30171204, y: 0, z: -0.06087494}
 --- !u!1 &2047603428
 GameObject:
   m_ObjectHideFlags: 0
@@ -7348,6 +8561,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2047603429}
   - component: {fileID: 2047603430}
+  - component: {fileID: 2047603431}
   m_Layer: 0
   m_Name: watercolor-tree-10 (13)
   m_TagString: Untagged
@@ -7412,6 +8626,18 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!65 &2047603431
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2047603428}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.690895, y: 12.4, z: 1.3435059}
+  m_Center: {x: 0.30171204, y: 0, z: -0.06087494}
 --- !u!1 &2058345287
 GameObject:
   m_ObjectHideFlags: 0
@@ -7421,6 +8647,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2058345288}
   - component: {fileID: 2058345289}
+  - component: {fileID: 2058345290}
   m_Layer: 0
   m_Name: watercolor-tree-10 (12)
   m_TagString: Untagged
@@ -7485,6 +8712,232 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!65 &2058345290
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2058345287}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.690895, y: 12.4, z: 1.3435059}
+  m_Center: {x: 0.30171204, y: 0, z: -0.06087494}
+--- !u!1 &2065129011 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1616863603954658, guid: 0574d23bfb762b04992225f82a882237,
+    type: 2}
+  m_PrefabInternal: {fileID: 1014614825}
+--- !u!82 &2065129012
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2065129011}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: f421fa6052c7b1a49bcc595c5a5ad200, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.05
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+--- !u!81 &2065129013
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2065129011}
+  m_Enabled: 1
+--- !u!1 &2095039904
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 2095039905}
+  - component: {fileID: 2095039908}
+  - component: {fileID: 2095039907}
+  - component: {fileID: 2095039906}
+  m_Layer: 5
+  m_Name: Button_exit
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2095039905
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2095039904}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 533725818}
+  m_Father: {fileID: 104522492}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.8785992, y: 0.85400003}
+  m_AnchorMax: {x: 0.9734835, y: 0.95600003}
+  m_AnchoredPosition: {x: 1, y: -2}
+  m_SizeDelta: {x: -3.7999878, y: 1}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2095039906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2095039904}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 0.53676474, g: 0.53676474, b: 0.53676474, a: 0.694}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 2095039907}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1969555940}
+        m_MethodName: exitGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &2095039907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2095039904}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &2095039908
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2095039904}
 --- !u!1 &2095133244
 GameObject:
   m_ObjectHideFlags: 0
@@ -7494,6 +8947,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2095133245}
   - component: {fileID: 2095133246}
+  - component: {fileID: 2095133247}
   m_Layer: 0
   m_Name: watercolor-tree-9 (5)
   m_TagString: Untagged
@@ -7547,7 +9001,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 562c72fe3bab0014da595e4572da70a6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -7558,6 +9012,18 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!65 &2095133247
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2095133244}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.690895, y: 12.4, z: 1.3435059}
+  m_Center: {x: 0.30171204, y: 0, z: -0.06087494}
 --- !u!1 &2102582502
 GameObject:
   m_ObjectHideFlags: 0
@@ -7567,6 +9033,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2102582503}
   - component: {fileID: 2102582504}
+  - component: {fileID: 2102582505}
   m_Layer: 0
   m_Name: watercolor-tree-9 (2)
   m_TagString: Untagged
@@ -7631,6 +9098,18 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!65 &2102582505
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2102582502}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.690895, y: 12.4, z: 1.3435059}
+  m_Center: {x: 0.30171204, y: 0, z: -0.06087494}
 --- !u!1 &2110959381
 GameObject:
   m_ObjectHideFlags: 0
@@ -7640,6 +9119,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2110959382}
   - component: {fileID: 2110959383}
+  - component: {fileID: 2110959384}
   m_Layer: 0
   m_Name: watercolor-tree-10 (6)
   m_TagString: Untagged
@@ -7693,7 +9173,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 42dc660c35a06754db19f0321dee3183, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -7704,6 +9184,18 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!65 &2110959384
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2110959381}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.690895, y: 12.4, z: 1.3435059}
+  m_Center: {x: 0.30171204, y: 0, z: -0.06087494}
 --- !u!1 &2111353733
 GameObject:
   m_ObjectHideFlags: 0
@@ -7713,6 +9205,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2111353734}
   - component: {fileID: 2111353735}
+  - component: {fileID: 2111353736}
   m_Layer: 0
   m_Name: watercolor-tree-10 (3)
   m_TagString: Untagged
@@ -7777,3 +9270,15 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!65 &2111353736
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2111353733}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.690895, y: 12.4, z: 1.3435059}
+  m_Center: {x: 0.30171204, y: 0, z: -0.06087494}

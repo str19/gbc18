@@ -286,12 +286,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\GameManager.cs" />
+    <Compile Include="Assets\Scripts\bunkerDoor.cs" />
     <Compile Include="Assets\Scripts\DoorOpen.cs" />
     <Compile Include="Assets\Scripts\fadeScript.cs" />
     <Compile Include="Assets\Scripts\FixPipe.cs" />
     <Compile Include="Assets\Scripts\Follow.cs" />
     <Compile Include="Assets\Scripts\inventoryControl.cs" />
     <Compile Include="Assets\Scripts\ItemCollect.cs" />
+    <Compile Include="Assets\Scripts\level1Controller.cs" />
     <Compile Include="Assets\Scripts\menuControler.cs" />
     <Compile Include="Assets\Scripts\PlayerCollect.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />

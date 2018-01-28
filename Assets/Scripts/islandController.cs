@@ -8,10 +8,20 @@ public class islandController : MonoBehaviour {
     void Start()
     {
         GameObject fade = GameObject.Find("fadeInOut");
+        GameObject player = GameObject.FindGameObjectWithTag("Player1");
+
+        if (player)
+        {
+            if (GameManager.Instance.lastRoomPosition != Vector3.zero) {
+                player.transform.position = GameManager.Instance.lastRoomPosition;
+            }
+        }
+
         if (fade)
         {
             GameManager.Instance.fadeInOutObj = fade;
             fade.GetComponent<fadeScript>().fadeIn();
         }
     }
+
 }

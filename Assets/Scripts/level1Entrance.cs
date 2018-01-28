@@ -8,6 +8,7 @@ public class level1Entrance : MonoBehaviour {
         if (collision.gameObject.tag == "Player1")
         {
             GameObject fade = GameManager.Instance.fadeInOutObj;
+            GameManager.Instance.lastRoomPosition = collision.gameObject.transform.position + new Vector3(0f,0f,-5f);
             fade.GetComponent<fadeScript>().fadeOutTo("level1");
         }
     }

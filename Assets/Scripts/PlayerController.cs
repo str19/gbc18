@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
 
-    void FixedUpdate()
+    void LateUpdate()
     {
         var x = Input.GetAxis("Horizontal") * Time.deltaTime * 25.0f;
         var y = Input.GetAxis("Vertical") * Time.deltaTime * 25.0f * (-1);

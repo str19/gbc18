@@ -304,7 +304,6 @@
     <Compile Include="Assets\Scripts\Pump.cs" />
     <Compile Include="Assets\Scripts\Sink.cs" />
     <Compile Include="Assets\Scripts\splashController.cs" />
-    <Compile Include="Assets\Scripts\WaterDeath.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

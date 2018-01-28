@@ -8,6 +8,7 @@ public class Pump : MonoBehaviour
 
     public GameObject water;
     bool working = false;
+    int mapFlooded = 0;
     //public GameObject redLight;
     //public GameObject greenLight;
 
@@ -19,7 +20,19 @@ public class Pump : MonoBehaviour
             {
                 working = true;
                 GameManager.Instance.valvesNumber--;
-                Destroy(water);
+                if(water) Destroy(water);
+                switch (mapFlooded)
+                {
+                    case 1:
+                        GameManager.Instance.firstMapFlooded = false;
+                        break;
+                    case 2:
+                        GameManager.Instance.secondMapFlooded = false;
+                        break;
+                    case 3:
+                        GameManager.Instance.thirdMapFlooded = false;
+                        break;
+                }
             }
             //Destroy(redLight);
             //greenLight.GetComponent<MeshRenderer>().enabled = true;

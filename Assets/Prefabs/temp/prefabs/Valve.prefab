@@ -23,6 +23,7 @@ GameObject:
   - component: {fileID: 64468922936917236}
   - component: {fileID: 23480898801555016}
   - component: {fileID: 114366794007149526}
+  - component: {fileID: 65422543057476288}
   m_Layer: 0
   m_Name: Valve
   m_TagString: Valve
@@ -93,11 +94,23 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 2
+  serializedVersion: 3
   m_Convex: 0
-  m_InflateMesh: 0
+  m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!65 &65422543057476288
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1929223073708000}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 10, y: 2.2204466e-16, z: 10.000002}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &114366794007149526
 MonoBehaviour:
   m_ObjectHideFlags: 1

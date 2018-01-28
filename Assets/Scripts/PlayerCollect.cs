@@ -4,9 +4,6 @@ using UnityEngine.SceneManagement;
 
 public class PlayerCollect : MonoBehaviour {
 
-    public GameObject inventoryPanel;
-    public GameObject[] inventoryIcons;
-    
     // Use this for initialization
     void OnCollisionEnter(Collision collision) {
         

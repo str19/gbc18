@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class playerMove3D : MonoBehaviour {
 
@@ -20,14 +21,6 @@ public class playerMove3D : MonoBehaviour {
 
 		//transform.Translate (xMove, 0, yMove);
 		transform.Translate (xMove, 0, yMove);
-
-	}
-
-
-	void OnTriggerEnter (Collider other){
-		print ("Collision Detected, load level");
-
-
 	}
 
 

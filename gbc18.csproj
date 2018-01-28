@@ -285,37 +285,26 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-<<<<<<< HEAD
-    <Compile Include="Assets\Scripts\Billboard.cs" />
-=======
     <Compile Include="Assets\GameManager.cs" />
     <Compile Include="Assets\Scripts\bunkerDoor.cs" />
->>>>>>> wilton
     <Compile Include="Assets\Scripts\DoorOpen.cs" />
     <Compile Include="Assets\Scripts\fadeScript.cs" />
     <Compile Include="Assets\Scripts\FixPipe.cs" />
     <Compile Include="Assets\Scripts\Follow.cs" />
-<<<<<<< HEAD
-    <Compile Include="Assets\Scripts\ItemCollect.cs" />
-    <Compile Include="Assets\Scripts\LookAt.cs" />
-    <Compile Include="Assets\Scripts\menuControler.cs" />
-    <Compile Include="Assets\Scripts\playerAnimation.cs" />
-=======
     <Compile Include="Assets\Scripts\inventoryControl.cs" />
+    <Compile Include="Assets\Scripts\islandController.cs" />
     <Compile Include="Assets\Scripts\ItemCollect.cs" />
     <Compile Include="Assets\Scripts\level1Controller.cs" />
+    <Compile Include="Assets\Scripts\level1Entrance.cs" />
     <Compile Include="Assets\Scripts\menuControler.cs" />
->>>>>>> wilton
+    <Compile Include="Assets\Scripts\playerAnimation.cs" />
     <Compile Include="Assets\Scripts\PlayerCollect.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Scripts\playerMove3D.cs" />
     <Compile Include="Assets\Scripts\Pump.cs" />
     <Compile Include="Assets\Scripts\Sink.cs" />
     <Compile Include="Assets\Scripts\splashController.cs" />
-<<<<<<< HEAD
     <Compile Include="Assets\Scripts\WaterDeath.cs" />
-=======
->>>>>>> wilton
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

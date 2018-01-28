@@ -15,7 +15,7 @@ public class menuControler : MonoBehaviour {
 	}
 
     public void startGame() {
-        SceneManager.LoadScene("game");
+        SceneManager.LoadScene("island");
     }
 
     public void exitGame()

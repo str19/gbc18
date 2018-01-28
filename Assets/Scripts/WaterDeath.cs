@@ -17,15 +17,13 @@ public class WaterDeath : MonoBehaviour {
 		
 	}
 
-    private void OnCollisionEnter(Collision collision)
+    void OnCollisionEnter(Collision collision)
     {
-        print("hit");
 
-        if (collision.gameObject.name == "Player")
+        if (collision.gameObject.tag == "Player1")
         {
 
-            print("You die");
-            SceneManager.LoadScene("island");
+            SceneManager.LoadScene("gameOver");
 
         }
 

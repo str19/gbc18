@@ -8,7 +8,7 @@ public class Pump : MonoBehaviour
 
     public GameObject water;
     bool working = false;
-    int mapFlooded = 0;
+    public int mapFlooded = 0;
     //public GameObject redLight;
     //public GameObject greenLight;
 
